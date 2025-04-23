@@ -62,13 +62,22 @@
 
 
 
-## 📂 Project Structure
-User Input (HTML Form)
-       →
-app.py → load model + preprocessing
-        →
-      Predict
-        →
-Render Result PDF
+career-prediction-analysis/
+├── static/                          # 🎨 Static files: CSS and other assets
+│   └── style.css                    # CSS file for styling HTML layout and design
+│
+├── templates/                       # 📄 HTML templates for frontend
+│   └── index.html                   # Main form page for user input and displaying output
+│
+├── dataset.xlsx                     # 📊 Raw dataset used for training the ML model
+│
+├── ml.ipynb                         # 📦 Jupyter Notebook containing ML model training and preprocessing steps
+│
+├── columns.pkl                      # 🔑 Column transformer: stores feature encoding and preprocessing steps
+├── scaler.pkl                       # 🔧 Scaler: stores scaling information (e.g., MinMaxScaler, StandardScaler)
+├── le.pkl                           # 🧮 Label Encoder: stores encoding for categorical variables
+│   ➡️ **Note:** These `.pkl` files will be auto-generated after running the ML model in `ml.ipynb`
+│
+└── app.py                           # ⚙️ Backend logic for the app, handles user input and prediction process
 
 
