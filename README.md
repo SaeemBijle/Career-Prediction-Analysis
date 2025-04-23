@@ -71,11 +71,14 @@ career-prediction-analysis/
 │
 ├── dataset.xlsx                     # 📊 Raw dataset used for training the ML model
 │
-├── ml.ipynb                         # 📦 Jupyter Notebook containing ML model training and preprocessing steps
+├── ml/                              # 📦 Folder for Jupyter notebooks and related files
+│   └── ml.ipynb                     # Jupyter Notebook for ML model training and preprocessing
 │
-├── columns.pkl                      # 🔑 Column transformer: stores feature encoding and preprocessing steps
-├── scaler.pkl                       # 🔧 Scaler: stores scaling information (e.g., MinMaxScaler, StandardScaler)
-├── le.pkl                           # 🧮 Label Encoder: stores encoding for categorical variables
+├── model/                           # 🧠 Folder for model and preprocessing files
+│   ├── columns.pkl                  # 🔑 Column transformer: stores feature encoding and preprocessing steps
+│   ├── scaler.pkl                   # 🔧 Scaler: stores scaling information (e.g., MinMaxScaler, StandardScaler)
+│   └── le.pkl                       # 🧮 Label Encoder: stores encoding for categorical variables
+│ 
 │   ➡️ **Note:** These `.pkl` files will be auto-generated after running the ML model in `ml.ipynb`
 │
 └── app.py                           # ⚙️ Backend logic for the app, handles user input and prediction process
