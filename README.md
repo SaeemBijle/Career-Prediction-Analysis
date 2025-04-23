@@ -7,7 +7,7 @@
 ## 🚀 Features
 
 - 🎯 Predicts job roles from over **30+ career domains**
-- 📚 Uses subject-wise academic performance (Sem 1 to Sem 8)
+- 📚 Uses subject-wise academic performance 
 - 💼 Includes co-curricular and soft skill inputs:
   - Hackathon participation
   - Competitive coding experience
