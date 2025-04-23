@@ -62,4 +62,4 @@
 
 
 ## 📂Project Structure
-
+![image alt](https://github.com/SaeemBijle/Career-Prediction-Analysis/blob/e5d3080d4e69610f9e0ddc78e4a2840ff3683ec2/Screenshot%202025-04-23%20164711.png)
