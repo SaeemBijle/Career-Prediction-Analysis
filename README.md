@@ -54,21 +54,21 @@
 
  **Predicted Role:** Programmer Analyst
 
- **Description:** Designs and implements technology solutions to meet business needs, focusing on
+ -**Description:** Designs and implements technology solutions to meet business needs, focusing on
  scalability, security, and performance.
- **Skills**: System architecture, cloud computing, solution design, business analysis, project
+ -**Skills**: System architecture, cloud computing, solution design, business analysis, project
  management.
- **Potential Companies**: Amazon, Microsoft, Google, consulting firms, large enterprises
+ -**Potential Companies**: Amazon, Microsoft, Google, consulting firms, large enterprises
 
 
 
 ## 📂 Project Structure
 User Input (HTML Form)
-        ↓
+       →
 app.py → load model + preprocessing
-        ↓
+        →
       Predict
-        ↓
+        →
 Render Result PDF
 
 
